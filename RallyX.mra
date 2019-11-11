@@ -1,15 +1,11 @@
 <misterromdescription>
 	<rbf>RallyX.rbf</rbf>
-	<rom index="0" zip="nrallyx.zip" md5="113b2afb644dd386dc7c3fc1ae685ff4">
+	<rom index="0" zip="rallyx.zip" md5="47b5dc3c2683e23b387115da19e2771a">
 
-		<part offset="0" length="2048" name="nrx_prg1.1d"/>
-		<part offset="0" length="2048" name="nrx_prg2.1e"/>
-		<part offset="2048" length="2048" name="nrx_prg1.1d"/>
-		<part offset="2048" length="2048" name="nrx_prg2.1e"/>
-		<part offset="0" length="2048" name="nrx_prg3.1k"/>
-		<part offset="0" length="2048" name="nrx_prg4.1l"/>
-		<part offset="2048" length="2048" name="nrx_prg3.1k"/>
-		<part offset="2048" length="2048" name="nrx_prg4.1l"/>
+		<part name="1b"/>
+		<part name="rallyxn.1e"/>
+		<part name="rallyxn.1h"/>
+		<part name="rallyxn.1k"/>
 		<part dt:dt="bin.hex">
  7f80 797f 716b 797f bf95 bed3 b9bf b1b5
  aaad a3a6 9da0 989a 9395 7690 0020 0116
@@ -1036,11 +1032,10 @@
  8080 8080 8080 8080 8080 8080 8080 8080
  8080 8080 8080 8080 8080 8080 8080 8080
 		</part>
-		<part name="nrx_chg1.8e" />
-		<part name="nrx_chg2.8d" />
+		<part name="8e"/>
 		<part name="rx1-6.8m"/>
 		<part name="rx1-5.3p"/>
-		<part name="nrx1-7.8p"/>
-		<part name="nrx1-1.11n"/>
+		<part name="rx1-7.8p"/>
+		<part name="rx1-1.11n"/>
 	</rom>
 </misterromdescripton>

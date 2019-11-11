@@ -1,6 +1,6 @@
 <misterromdescription>
         <rbf>Druaga.rbf</rbf>
-	<rom index="0" zip="mappy.zip" md5="">
+	<rom index="0" zip="mappy.zip" md5="b276d97b0dc61ca668d140793fac44bf">
 		<part name="mpx_3.1d"/> 
 		<part name="mpx_3.1d"/>
 		<part name="mp1_2.1c"/>
