@@ -1,5 +1,5 @@
 <misterromdescription>
-        <rbf>PacMan.rbf</rbf>
+        <rbf>PacMan</rbf>
 	<rom index="0" zip="puckmanb.zip" md5="fd797987989406655a031adf6f5532fb">
 		<part name="namcopac.6e" />
 		<part name="namcopac.6f" />

@@ -1,5 +1,5 @@
 <misterromdescription>
-	<rbf>RallyX.rbf</rbf>
+	<rbf>RallyX</rbf>
 	<rom index="0" zip="nrallyx.zip" md5="113b2afb644dd386dc7c3fc1ae685ff4">
 
 		<part offset="0" length="2048" name="nrx_prg1.1d"/>
