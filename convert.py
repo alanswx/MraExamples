@@ -22,7 +22,7 @@ def load_file(filename):
    zip2p = re.compile('set zip2=(.*)')
    ifilesp = re.compile('set ifiles=(.*)')
    md5p= re.compile('set md5valid=(.*)')
-   ofilep= re.compile('set ofile=(.*)')
+   ofilep= re.compile('set *ofile=(.*)')
    fullnamep= re.compile('set fullname=(.*)')
    while line:
        #print("Line {}: {}".format(cnt, line.strip()))
@@ -72,6 +72,8 @@ def process_roms(romlist):
         rbfname="Alibaba"
     elif (rbfname=="Asteroid"):
         rbfname="Asteroids"
+    elif (rbfname=="Astdelux"):
+        rbfname="AsteroidsDeluxe"
     elif (rbfname=="Azurn"):
         rbfname="AzurianAttack"
     elif (rbfname=="Blckhl"):
@@ -84,6 +86,10 @@ def process_roms(romlist):
         rbfname="BurgerTime"
     elif (rbfname=="Bwidow"):
         rbfname="BlackWidow"
+    elif (rbfname=="Canyon"):
+        rbfname="CanyonBomber"
+    elif (rbfname=="Centiped"):
+        rbfname="Centipede"
     elif (rbfname=="Cclimb"):
         rbfname="CrazyClimber"
     elif (rbfname=="Ckong"):
@@ -108,6 +114,8 @@ def process_roms(romlist):
         rbfname="LadyBug"
     elif (rbfname=="Lizwiz"):
         rbfname="LizardWizard"
+    elif (rbfname=="Llander"):
+        rbfname="LunarLander"
     elif (rbfname=="Mspcmn"):
         rbfname="MsPacman"
     elif (rbfname=="Orbtrn"):
@@ -126,8 +134,12 @@ def process_roms(romlist):
         rbfname="SnapJack"
     elif (rbfname=="Sprglb"):
         rbfname="SuperGlob"
+    elif (rbfname=="Sbrkout"):
+        rbfname="SuperBreakout"
     elif (rbfname=="Tmplt"):
         rbfname="TimePilot"
+    elif (rbfname=="Travrusa"):
+        rbfname="TraverseUSA"
     elif (rbfname=="Vvcar"):
         rbfname="VanVanCar"
     elif (rbfname=="Warbug"):
@@ -187,7 +199,7 @@ def process_roms(romlist):
                  try:
                    info = zf2.getinfo(part)
                  except KeyError:
-                   print ('ERROR: Did not find %s in zip file' % part )
+                   print ('ERROR: Did not find %s in zip file ' % part )
                  else:
                    print ('%s is %d bytes' % (info.filename, info.file_size))
                    fp.write('        <part zip="{}" name="{}"/>\n'.format(mrazip2,part))
