@@ -10,7 +10,7 @@
 		<part offset="0" length="2048" name="nrx_prg4.1l"/>
 		<part offset="2048" length="2048" name="nrx_prg3.1k"/>
 		<part offset="2048" length="2048" name="nrx_prg4.1l"/>
-		<part dt:dt="bin.hex">
+		<part>
  80 7f 7f 79 6b 71 7f 79 95 bf d3 be bf b9 b5 b1
  ad aa a6 a3 a0 9d 9a 98 95 93 90 76 20 00 16 01
  0e 12 1b 1f 25 2a 2f 34 38 3c 40 44 47 4b 4e 51
