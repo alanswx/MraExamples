@@ -1,0 +1,17 @@
+<misterromdescription>
+  <rbf>Eeekk</rbf>
+  <rom index="0" zip="eeekk.zip" md5="3656309ff07929583f908b80ca128780">
+        <part name="u_2_eeekk_pg03094.u2"/>
+        <part name="u_3_eeekk_pg03094.u3"/>
+        <part name="u_2_eeekk_pg03094.u2"/>
+        <part name="u_3_eeekk_pg03094.u3"/>
+        <part name="5_e_eeekk_pg03094.5e"/>
+        <part name="5_f_eeekk_pg03094.5f"/>
+        <part name="5_f_eeekk_pg03094.5f"/>
+        <part name="5_f_eeekk_pg03094.5f"/>
+        <part name="82s126.1m"/>
+        <part name="4_a_eeekk.4a"/>
+        <part name="82s126.3m"/>
+        <part name="7_f_eeekk.7f"/>
+  </rom>
+</misterromdescription>

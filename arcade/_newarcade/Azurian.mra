@@ -1,0 +1,13 @@
+<misterromdescription>
+  <rbf>Azurian</rbf>
+  <rom index="0" zip="azurian.zip" md5="15a3833969f0334f2e440b31868ce44f">
+        <part name="pgm.1"/>
+        <part name="pgm.2"/>
+        <part name="pgm.3"/>
+        <part name="pgm.3"/>
+        <part name="gfx.1"/>
+        <part name="gfx.1"/>
+        <part name="gfx.2"/>
+        <part name="gfx.2"/>
+  </rom>
+</misterromdescription>

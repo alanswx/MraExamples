@@ -1,0 +1,15 @@
+<misterromdescription>
+  <rbf>Frenzy</rbf>
+  <rom index="0" zip="frenzy.zip" md5="be40e91e83dda8882bd31f59e93fa75a">
+        <part name="1c-0"/>
+        <part name="1d-1"/>
+        <part name="3d-2"/>
+        <part name="5d-3"/>
+        <part name="6d-4"/>
+        <part name="6d-4"/>
+        <part name="6d-4"/>
+        <part name="6d-4"/>
+        <part name="e169-1cvo.1c"/>
+        <part name="e169-2cvo.2c"/>
+  </rom>
+</misterromdescription>

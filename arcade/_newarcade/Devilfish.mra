@@ -1,0 +1,21 @@
+<misterromdescription>
+  <rbf>Devilfish</rbf>
+  <rom index="0" zip="devilfsg.zip" md5="3af9bea33dc72c07afb13e17e588289d">
+        <part name="dfish1.7f"/>
+        <part name="dfish2.7h"/>
+        <part name="dfish3.7k"/>
+        <part name="dfish4.7m"/>
+        <part name="dfish5.1h"/>
+        <part name="dfish6.1k"/>
+        <part name="82s123.6e"/>
+  </rom>
+  <rom index="0" zip="devilfsh.zip" md5="3af9bea33dc72c07afb13e17e588289d">
+        <part name="devilfsg/dfish1.7f"/>
+        <part name="devilfsg/dfish2.7h"/>
+        <part name="devilfsg/dfish3.7k"/>
+        <part name="devilfsg/dfish4.7m"/>
+        <part name="devilfsg/dfish5.1h"/>
+        <part name="devilfsg/dfish6.1k"/>
+        <part name="c01s.6e"/>
+  </rom>
+</misterromdescription>

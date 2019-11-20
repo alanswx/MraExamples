@@ -1,0 +1,17 @@
+<misterromdescription>
+  <rbf>Birdiy</rbf>
+  <rom index="0" zip="birdiy.zip" md5="b5ec192130477216de70bca409903cb1">
+        <part name="a6.6a"/>
+        <part name="c6.6c"/>
+        <part name="a4.4a"/>
+        <part name="c4.4c"/>
+        <part name="c1.1c"/>
+        <part name="c3.3c"/>
+        <part name="c1.1c"/>
+        <part name="c3.3c"/>
+        <part name="n82s129n.4k"/>
+        <part name="n82s129n.9m"/>
+        <part name="n82s129n.6l"/>
+        <part name="n82s123n.10n"/>
+  </rom>
+</misterromdescription>

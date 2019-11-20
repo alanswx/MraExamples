@@ -1,0 +1,19 @@
+<misterromdescription>
+  <rbf>Squash</rbf>
+  <rom index="0" zip="squaitsa.zip" md5="6e96f7a0320caf61bfeaf400ef2b538a">
+        <part name="sq5.3.9e"/>
+        <part name="sq6.4.9f"/>
+        <part name="sq7.5.9j"/>
+        <part name="sq5.3.9e"/>
+        <part name="sq6.4.9f"/>
+        <part name="sq7.5.9j"/>
+        <part name="sq5.3.9e"/>
+        <part name="sq6.4.9f"/>
+        <part name="sq2.1.1e"/>
+        <part name="sq1.1c"/>
+        <part name="sq4.2.1j"/>
+        <part name="sq3.1f"/>
+        <part name="mmi6331.3p"/>
+        <part name="mmi6331.3r"/>
+  </rom>
+</misterromdescription>

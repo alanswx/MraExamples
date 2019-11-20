@@ -1,0 +1,35 @@
+<misterromdescription>
+  <rbf>Pleiads</rbf>
+  <rom index="0" zip="capitol.zip" md5="df68f7d8d28e8d5b44f09433064864ba">
+        <part name="cp1.45"/>
+        <part name="cp2.46"/>
+        <part name="cp3.47"/>
+        <part name="cp4.48"/>
+        <part name="cp5.49"/>
+        <part name="cp6.50"/>
+        <part name="cp7.51"/>
+        <part name="cp8.52"/>
+        <part name="cp11.23"/>
+        <part name="cp12.24"/>
+        <part name="cp9.39"/>
+        <part name="cp10.40"/>
+        <part name="ic40.prm"/>
+        <part name="ic41.prm"/>
+  </rom>
+  <rom index="0" zip="pleiads.zip" md5="df68f7d8d28e8d5b44f09433064864ba">
+        <part name="capitol/cp1.45"/>
+        <part name="capitol/cp2.46"/>
+        <part name="capitol/cp3.47"/>
+        <part name="capitol/cp4.48"/>
+        <part name="capitol/cp5.49"/>
+        <part name="capitol/cp6.50"/>
+        <part name="capitol/cp7.51"/>
+        <part name="capitol/cp8.52"/>
+        <part name="capitol/cp11.23"/>
+        <part name="capitol/cp12.24"/>
+        <part name="capitol/cp9.39"/>
+        <part name="capitol/cp10.40"/>
+        <part name="capitol/ic40.prm"/>
+        <part name="capitol/ic41.prm"/>
+  </rom>
+</misterromdescription>

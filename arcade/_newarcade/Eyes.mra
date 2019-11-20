@@ -1,0 +1,21 @@
+<misterromdescription>
+  <rbf>Eyes</rbf>
+  <rom index="0" zip="eyes.zip" md5="6a14c3752f33a144760b4fe8f45ed5f7">
+        <part name="d7"/>
+        <part name="e7"/>
+        <part name="f7"/>
+        <part name="h7"/>
+        <part name="d7"/>
+        <part name="e7"/>
+        <part name="f7"/>
+        <part name="h7"/>
+        <part name="d5"/>
+        <part name="e5"/>
+        <part name="e5"/>
+        <part name="e5"/>
+        <part name="82s126.1m"/>
+        <part name="82s129.4a"/>
+        <part name="82s126.3m"/>
+        <part name="82s123.7f"/>
+  </rom>
+</misterromdescription>

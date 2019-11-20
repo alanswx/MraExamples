@@ -1,0 +1,15 @@
+<misterromdescription>
+  <rbf>Pooyan</rbf>
+  <rom index="0" zip="pooyan.zip" md5="de106fd90992460848b7856876a4e330">
+        <part name="1.4a"/>
+        <part name="2.5a"/>
+        <part name="3.6a"/>
+        <part name="4.7a"/>
+        <part name="8.10g"/>
+        <part name="7.9g"/>
+        <part name="6.9a"/>
+        <part name="5.8a"/>
+        <part name="xx.7a"/>
+        <part name="xx.8a"/>
+  </rom>
+</misterromdescription>

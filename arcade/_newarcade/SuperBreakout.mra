@@ -1,0 +1,13 @@
+<misterromdescription>
+  <rbf>SuperBreakout</rbf>
+  <rom index="0" zip="sbrkout.zip" md5="b80592e3c65a8c88bd48960d56c3e985">
+        <part name="033453.c1"/>
+        <part name="033454.d1"/>
+        <part name="033455.e1"/>
+        <part name="033455.e1"/>
+        <part name="033280.p4"/>
+        <part name="033281.r4"/>
+        <part name="006400.m2"/>
+        <part name="006401.e2"/>
+  </rom>
+</misterromdescription>

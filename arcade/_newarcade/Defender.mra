@@ -1,0 +1,19 @@
+<misterromdescription>
+  <rbf>Defender</rbf>
+  <rom index="0" zip="defender.zip" md5="c30f51faa522769c684feafa3147354a">
+        <part name="defend.1"/>
+        <part name="defend.4"/>
+        <part name="defend.2"/>
+        <part name="defend.3"/>
+        <part name="defend.9"/>
+        <part name="defend.12"/>
+        <part name="defend.8"/>
+        <part name="defend.11"/>
+        <part name="defend.7"/>
+        <part name="defend.10"/>
+        <part name="defend.6"/>
+        <part name="defend.snd"/>
+        <part name="decoder.2"/>
+        <part name="decoder.3"/>
+  </rom>
+</misterromdescription>

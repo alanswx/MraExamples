@@ -1,0 +1,12 @@
+<misterromdescription>
+  <rbf>Dorodon</rbf>
+  <rom index="0" zip="dorodon.zip" md5="72cf4f0a5baf5a53342df3908589c359">
+        <part name="dorodon.0"/>
+        <part name="dorodon.1"/>
+        <part name="dorodon.2"/>
+        <part name="dorodon.4"/>
+        <part name="dorodon.3"/>
+        <part name="dorodon.5"/>
+        <part name="dorodon.6"/>
+  </rom>
+</misterromdescription>

@@ -1,0 +1,17 @@
+<misterromdescription>
+  <rbf>Catacomb</rbf>
+  <rom index="0" zip="catacomb.zip" md5="bf9ff64c330d2a88d6d0d47668b05ffe">
+        <part name="catacomb.u"/>
+        <part name="catacomb.v"/>
+        <part name="catacomb.w"/>
+        <part name="catacomb.w"/>
+        <part name="catacomb.y"/>
+        <part name="catacomb.y"/>
+        <part name="catacomb.y"/>
+        <part name="catacomb.y"/>
+        <part name="cat-gfx1"/>
+        <part name="cat-gfx1"/>
+        <part name="cat-gfx2"/>
+        <part name="cat-gfx2"/>
+  </rom>
+</misterromdescription>

@@ -1,0 +1,20 @@
+<misterromdescription>
+  <rbf>BurgerTime</rbf>
+  <rom index="0" zip="btime.zip" md5="2c010e7efd65ede024585ca342dc8c25">
+        <part name="aa04.9b"/>
+        <part name="aa06.13b"/>
+        <part name="aa05.10b"/>
+        <part name="aa07.15b"/>
+        <part name="aa12.7k"/>
+        <part name="ab13.9k"/>
+        <part name="ab10.10k"/>
+        <part name="ab11.12k"/>
+        <part name="aa8.13k"/>
+        <part name="ab9.15k"/>
+        <part name="ab00.1b"/>
+        <part name="ab01.3b"/>
+        <part name="ab02.4b"/>
+        <part name="ab03.6b"/>
+        <part name="ab14.12h"/>
+  </rom>
+</misterromdescription>

@@ -1,0 +1,20 @@
+<misterromdescription>
+  <rbf>Joust</rbf>
+  <rom index="0" zip="joust.zip" md5="8449f80f45dc82116fef6964b73d1d10">
+        <part name="3006-22.10b"/>
+        <part name="3006-23.11b"/>
+        <part name="3006-24.12b"/>
+        <part name="3006-13.1b"/>
+        <part name="3006-14.2b"/>
+        <part name="3006-15.3b"/>
+        <part name="3006-16.4b"/>
+        <part name="3006-17.5b"/>
+        <part name="3006-18.6b"/>
+        <part name="3006-19.7b"/>
+        <part name="3006-20.8b"/>
+        <part name="3006-21.9b"/>
+        <part name="joust.snd"/>
+        <part name="decoder.4"/>
+        <part name="decoder.6"/>
+  </rom>
+</misterromdescription>

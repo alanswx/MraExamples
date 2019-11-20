@@ -3,6 +3,7 @@ import re
 import zipfile
 import os
 import hashlib
+import shutil
 
 def lreplace(pattern, sub, string):
     """
@@ -188,11 +189,11 @@ def process_rom(path,filename,name):
     if 1:
         ofilename=rom['ofile'].replace('.rom','.mra')
         if count==0:
-            ofiledir='_newarcade/'
+            ofiledir='arcade/_newarcade/'
             os.makedirs(ofiledir,exist_ok=True)
             ofilename=ofiledir+rbfname+'.mra'
         else:
-            ofiledir='_newarcade/_hacks/_'+rbfname+'/'
+            ofiledir='arcade/_newarcade/_hacks/_'+rbfname+'/'
             os.makedirs(ofiledir,exist_ok=True)
             ofilename=ofiledir+ofilename
 
@@ -257,12 +258,25 @@ def process_rom(path,filename,name):
             zf1m= zipfile.ZipFile(zipnamem, 'r')
             mrazip2=""
             zf2=None
+            zipname2=None
             try:
-              zipname="non-merged/"+rom['zip2']
-              zf2= zipfile.ZipFile(zipname, 'r')
+              zipname2="non-merged/"+rom['zip2']
+              zf2= zipfile.ZipFile(zipname2, 'r')
               mrazip2=lreplace('MAME/','',rom['zip2'])
             except KeyError:
               print ('ERROR: Did not find zip2')
+
+
+            #
+            # copy the roms into place
+            #
+            os.makedirs("arcade/non-merged/",exist_ok=True)
+            os.makedirs("arcade/merged/",exist_ok=True)
+            shutil.copyfile(zipname,"arcade/"+zipname)
+            if (zipname2):
+                shutil.copyfile(zipname2,"arcade/"+zipname2)
+            shutil.copyfile(zipnamem,"arcade/"+zipnamem)
+
 
             mrazip1=lreplace('MAME/','',rom['zip1'])
 
@@ -295,17 +309,22 @@ def process_rom(path,filename,name):
 
 
 if __name__ == "__main__":
-    for file in os.listdir("."):
+    prefix = "/data1/misterbackup/"
+    for file in os.listdir(prefix):
         if file.startswith("Arcade-"):
             p1=file.split('-')
             p2=p1[1].split('_')
             print(file)
             print(p2[0])
-            filename=file+'/releases/build_rom.ini'
-            if os.path.exists(filename) and p2[0]!='RallyX':
-               process_rom(file,file+'/releases/build_rom.ini',p2[0])
+            filename=prefix+file+'/releases/build_rom.ini'
+            if os.path.exists(filename) and p2[0]=='Druaga':
+               process_rom(prefix+file,prefix+file+'/releases/build_rom_DigDug2.ini','DigDug2')
+               process_rom(prefix+file,prefix+file+'/releases/build_rom_Motos.ini','Motos')
+               process_rom(prefix+file,prefix+file+'/releases/build_rom_Mappy.ini','Mappy')
+            elif os.path.exists(filename) and p2[0]!='RallyX':
+               process_rom(prefix+file,prefix+file+'/releases/build_rom.ini',p2[0])
             else:
-               print(file+' no rom')
+               print(prefix+file+' no rom')
 
     #for arg in sys.argv:
     #    if (arg!=sys.argv[0]):

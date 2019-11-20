@@ -1,0 +1,18 @@
+<misterromdescription>
+  <rbf>TheEnd</rbf>
+  <rom index="0" zip="theend.zip" md5="8d8d9e0e8264bcc2846ead9c0253beee">
+        <part name="ic13_1t.bin"/>
+        <part name="ic14_2t.bin"/>
+        <part name="ic15_3t.bin"/>
+        <part name="ic16_4t.bin"/>
+        <part name="ic17_5t.bin"/>
+        <part name="ic18_6t.bin"/>
+        <part name="ic18_6t.bin"/>
+        <part name="ic18_6t.bin"/>
+        <part name="ic31_1c.bin"/>
+        <part name="ic30_2c.bin"/>
+        <part name="ic56_1.bin"/>
+        <part name="ic55_2.bin"/>
+        <part name="ic56_1.bin"/>
+  </rom>
+</misterromdescription>
